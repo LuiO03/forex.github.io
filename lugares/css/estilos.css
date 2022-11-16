@@ -1,0 +1,76 @@
+
+
+
+.laguna__contenedor{
+	
+	background: rgb(0,121,255);
+	background: linear-gradient(180deg, rgba(0,121,255,1) 0%, rgba(255,255,255,0.6334908963585435) 100%);
+
+}
+
+.laguna__header{
+	
+	height: 450px;
+
+}
+
+.laguna__titulo{
+	text-align: center;
+	color: #f3c516;
+	font-size: 40px;
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.laguna{
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.laguna__imagen{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.laguna__imagen img{
+	width: 100%;
+	margin: 40px 0px;
+	box-shadow: 10px 5px 15px black;
+	border: 1px solid black;
+	border-left: 0px solid;
+}
+
+.laguna__cuerpo{
+	text-align: center;
+	padding: 20px;
+	background: white;
+	border: 1px solid black;
+}
+
+.laguna__cuerpo p{
+	text-align: justify;
+	padding: 15px;
+	font-size: 20px;
+	color: black;
+}
+
+iframe{
+	width: 100%;
+}
+
+@media screen and (max-width: 840px){
+
+	.laguna{
+		grid-template-columns: 1fr;
+	}
+
+	.laguna__imagen img{
+		width: 100%;
+		margin: 10px 0px;
+		box-shadow: none;
+		border: 1px solid black;
+	}
+}
+
