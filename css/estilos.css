@@ -7,31 +7,28 @@
 	height: 550px;
 	text-align: center;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	background-attachment: fixed;
 }
 
 .titulo{
-	color: #f3c516;
+	color: #d7fa91;
 	padding: 20px;
 	font-size: 50px;
-	background: rgb(0,0,0);
-	background: linear-gradient(180deg, rgba(0,0,0,0.6839110644257703) 0%, rgba(255,255,255,0) 100%);
+	background: rgba(0, 0, 0, 0.6);	
 }
 
 .slogan{
 	color: #f3c516;
 	padding: 20px;
 	font-size: 30px;
-	background: rgb(0,0,0);
-	background: linear-gradient(0deg, rgba(0,0,0,0.6839110644257703) 0%, rgba(255,255,255,0) 100%);
-	
+	background: rgba(0, 0, 0, 0.6);	
 }
 
 .experiencia__contenedor{
-	justify-content: center;
+	
 	text-align: center;
-	padding: 60px 0px;
+	padding: 60px 0px 30px 0px;
 }
 
 .experiencia__titulo, .lugares__titulo{
@@ -39,25 +36,26 @@
 }
 
 .experiencia{
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
 	width: 90%;
 	margin: auto;
-	gap: 10px;
+	align-items: center;
+	justify-items: center;
 	
 }
 
 .experiencia__elemento{
-	width: 25%;
+	width: 150px;
 }
 
 .experiencia__elemento img{
-	width: 60%;
+	width: 100%;
 }
 
 .experiencia__elemento h3{
-	padding: 15px;
+	padding: 15px 0px;
 }
-
 
 
 .lugares__contenedor{
@@ -176,6 +174,22 @@
 		width: 80%;
 	}
 
+	.experiencia{
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.experiencia__elemento{
+		padding: 15px 0px;
+	}
+
+	.experiencia__elemento img{
+		width: 80%;
+	}
+
+	.experiencia div:nth-of-type(5){
+		grid-column: 3/4;
+	}
+
 }
 
 
@@ -193,5 +207,15 @@
 		gap: 20px;
 	}
 
-	
+	.experiencia{
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.experiencia__elemento{
+		padding: 15px 0px;
+	}
+
+	.experiencia div:nth-of-type(5){
+		grid-column: 1/3;
+	}
 }
