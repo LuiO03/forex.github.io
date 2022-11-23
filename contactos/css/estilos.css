@@ -74,6 +74,7 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	padding: 10px;
 }
 
 .ubicacion__texto{
@@ -182,19 +183,27 @@ textarea{
 	}
 
 	input{
-		width: 95%;
+		width: 98%;
 		height: 20px;
 
 	}
 
 	textarea {
 		width: 100%;
-		margin: 20px 0px;
+		margin: 0px 0px;
 		height: 100px;
 	}
 
 	.boton{
 		height: 40px;
+	}
+
+	.cuerpo__descripcion{
+		width: 70%;
+	}
+
+	.ubicacion{
+		font-size: 12px;
 	}
 
 }
