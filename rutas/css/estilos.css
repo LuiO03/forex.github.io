@@ -142,7 +142,8 @@ iframe{
 	}
 
 	.hospedaje{
-		font-size: 14px;
+		font-size: 12px;
+		width: 150%;
 	}
 }
 
