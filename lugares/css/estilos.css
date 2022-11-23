@@ -76,3 +76,14 @@ iframe{
 	}
 }
 
+@media screen and (max-width: 640px){
+
+	.laguna__header{
+		height: 350px;
+	}
+
+	.laguna__titulo{
+		font-size: 30px;
+	}
+}
+

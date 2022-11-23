@@ -1,8 +1,7 @@
 
 .hospedaje__contenedor{
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	width: 80%;
+	display: flex;
+	width: 70%;
 	margin: auto;
 	padding: 20px 0px;
 	justify-content: center;
@@ -11,23 +10,29 @@
 }
 
 .hospedaje{
-	background: whitesmoke;
+	background: #ED9A00;
 	padding: 15px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	height: 150px;
-	border-radius: 10px;
+	border-radius: 10px 0px 0px 10px;
+	border: solid 1px white;
+	width: 100%;
+	border-right: solid black 1px;
 }
 .hospedaje__imagen{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 500px;
 }
 
 .hospedaje__imagen img{
-	width: 50%;
-	box-shadow: 5px 5px 5px gray;
+	width: 100%;
+	box-shadow: 5px 5px 5px black;
+	border-radius: 0px 10px 10px 0px;
+
 }
 .rutas__header{
 	background: url(../img/portada.jpg)no-repeat center center/cover;
@@ -39,9 +44,7 @@
 
 .rutas__contenedor{
 	
-	background: rgb(0,121,255);
-	background: linear-gradient(180deg, rgba(0,121,255,1) 0%, rgba(255,255,255,0.6334908963585435) 100%);
-
+	background: #060643;
 }
 
 .rutas__header{
@@ -86,7 +89,7 @@
 	background: white;
 	border: 1px solid black;
 	text-align: center;
-	box-shadow: 10px 5px 15px gray;
+	box-shadow: 10px 5px 15px black;
 }
 
 .rutas__cuerpo h2{
@@ -131,5 +134,18 @@ iframe{
 		border: 1px solid black;
 	}
 }
+
+@media screen and (max-width: 640px){
+
+	.rutas__header{
+		height: 350px;
+	}
+
+	.hospedaje{
+		font-size: 14px;
+	}
+}
+
+
 
 

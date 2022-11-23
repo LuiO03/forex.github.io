@@ -21,7 +21,7 @@
 	padding: 10px;
 	text-align: center;
 	background: #33CC66; 
-	box-shadow: 0px 0px 15px gray;
+	box-shadow: 0px 0px 15px black;
 	border-radius: 50px;
 	height: 30px;
 	border: 1px solid white;
@@ -58,7 +58,6 @@
 	padding: 10px;
 	margin: 5px;
 	border-radius: 10px;
-	background: #33CC66;
 }
 
 .miga__elemento:hover, .miga__elemento--home:hover {
